@@ -21,5 +21,10 @@ public class ApplicationController {
         return "main";
     }
 
+        @GetMapping("/confirmarInformacion")
+    public String GetConfirmarInformacion(){
+        return "confirmarInformacion";
+    }
+
     
 }
